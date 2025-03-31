@@ -1,7 +1,7 @@
 function rearrange(arr) {
     let j = 0;  // Pointer to track where the next negative number should go
 
-    // Traverse the array
+    // Traverse the [] array
     for (let i = 0; i < arr.length; i++) {
         // If the current element is negative, we need to move it to the front
         if (arr[i] < 0) {
